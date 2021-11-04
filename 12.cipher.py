@@ -7,7 +7,6 @@ def cipher(sentence):
         if i == " ":
             continue
         n = len(checklist) - checklist.index(i) - 1
-   #     n = - checklist.index(i) - 1
         result += checklist[n]
     print (result)
 
