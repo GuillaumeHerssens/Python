@@ -1,5 +1,3 @@
-
-
 def to_rna(strand):
     strand = strand.lower()
     rna = {"a": "U", "t": "A", "c": "G", "g": "C"}
