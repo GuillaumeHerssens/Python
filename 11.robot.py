@@ -17,9 +17,7 @@ def robot(movement, coor, orientation):
             orientation = (orientation - 1) % 4
     print (coor, "facing", compass[orientation])
 
-
 movement = "RAALAL"
 coor = [7, 3]
 orientation = "north"
-
 robot(movement, coor, orientation)

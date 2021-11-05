@@ -10,5 +10,7 @@ def cipher(sentence):
         result += checklist[n]
     print (result)
 
-cipher("gsvjf rxpyi ldmul cqfnk hlevi gsvoz abwlt")
-cipher("the quick brown fox jumps over the lazy dog")
+encode = "the quick brown fox jumps over the lazy dog"
+decode = "gsvjf rxpyi ldmul cqfnk hlevi gsvoz abwlt"
+cipher(encode)
+cipher(decode)

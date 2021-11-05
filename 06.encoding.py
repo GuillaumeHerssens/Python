@@ -14,6 +14,5 @@ def encoding(string):
             count = 1
     print (code)
 
-
 text = "WWWWWWWWWWWWBWWWWWWWWWWWWBBBWWWWWWWWWWWWWWWWWWWWWWWWB"
 encoding(text)

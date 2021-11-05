@@ -3,6 +3,5 @@ def wordcount(sentence):
     for i in sentence2:
         print ("%s :" % i, sentence.count(i))
 
-
-
-wordcount("olly olly in come free")
+sentence = "olly olly in come free"
+wordcount(sentence)

@@ -5,5 +5,6 @@ def squares(n):
         sumsquare += (i ** 2)
 
     print ((squaresum **2) - sumsquare)
-
-squares(10)
+    
+n = 10
+squares(n)

@@ -1,9 +1,10 @@
-def serie(check, n):
-    if n > len(check):
+def serie(m, n):
+    if n > len(m):
         print ("Invalid length")
     else:               
-        for i in range(len(check)):
-            if len(check[i:i+n]) == n:
-                print (check[i:i+n])
-
-serie(str(49142), 3)
+        for i in range(len(m)):
+            if len(m[i:i+n]) == n:
+                print (m[i:i+n])
+m = 49142
+n = 3
+serie(str(m), n)

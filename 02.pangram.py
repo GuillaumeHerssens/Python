@@ -16,8 +16,5 @@ def pangram(sentence):
             print ("The sentence is not a pangram")
             break
 
-        
-
-
-
-pangram("The ,quick; brown,fox jumps ,over the %%%%lazy (dog).")
+sentence = "The ,quick; brown,fox jumps ,over the %%%%lazy (dog)."
+pangram(sentence)
