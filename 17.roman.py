@@ -17,8 +17,6 @@ def to_roman(n):
                 roman = (intermediate[i])+(power[i]*(int(n[-i-1])-5)) + roman
             elif int(n[-i-1]) > 8:
                 roman = (power[i]*1)+(power[i+1]) + roman
-
-
-    print (roman)
+        print (roman)
 n = 3999
 to_roman(str(n))
